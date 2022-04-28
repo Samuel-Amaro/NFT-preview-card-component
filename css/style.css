@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+main{
+    min-width: 375px;
+    max-width: 1440px;
+}
+
+.component-nft{
+    width: 340px;
+    margin: 50px auto;
+    background-color: hsl(216, 50%, 16%);
+    padding: 23px;
+    border-radius: 15px;
+}
+
+.conteiner-img img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.infor-pt1, .infor-pt2{
+    float: left;
+}
+
+.infor-pt1{
+    width: 50%;
+    text-align: left;
+}
+
+.infor-pt2{
+    width: 50%;
+    text-align: right;
+}
+
+.clearfix{
+    clear: left;
+}
+
+.content h3{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    line-height: 1.6;
+    padding: 10px 0;
+    font-size: 21px;
+}
+
+.content p{
+    color: hsl(215, 51%, 70%);
+    padding-bottom: 10px;
+    line-height: 1.6;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.infor-pt2, .infor-pt1{
+    padding-bottom: 13px;
+}
+
+.info-img-crip, .info-content-crip, .info-img-date, .info-date{
+    display: inline-block;
+}
+
+.info-img-crip, .info-img-date{
+    vertical-align: middle;
+}
+
+.info-date{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.info-content-crip{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+hr{
+    color: hsl(215, 32%, 27%);
+    margin-bottom: 14px;
+}
+
+.img-profile, .content-description{
+    display: inline-block;
+    height: 32px;
+}
+
+.img-profile img{
+    width: 32px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.content-description{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    padding-left: 12px;
+}
+
+.content-description span{
+    color: hsl(0, 0%, 100%);
+}
+
+.img-profile{
+    vertical-align: middle;
+}
+
+.conteiner-img{
+    position: relative;
+    overflow: auto;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 3px;
+    border-radius: 10px;
+    width: 100%;
+    height: 99%;
+    background-color: hsla(178, 100%, 50%, 0.6);
+    visibility: hidden;
+    z-index: 1;
+}
+
+.overlay img{
+    position: absolute;
+    display: block;
+    padding: 43%;
+}
+
+.conteiner-img:hover .overlay{
+    visibility: visible;
+    cursor: pointer;
+}
+
+h3:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.content-description span:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
